@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div id="top">
+            <div>
+                <img src="./Képek/Youtube-Logo-PNG.png" alt="youtube-icon" height="20px" width="90px" id="youtube-icon">
+            </div>
+            <div id="search-microphone">
+                <div id="search-container">
+                    <input type="text" placeholder="Keresés" id="search">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="25px" width="32px" id="keyboard" fill="grey"><title>keyboard</title><path d="M19,10H17V8H19M19,13H17V11H19M16,10H14V8H16M16,13H14V11H16M16,17H8V15H16M7,10H5V8H7M7,13H5V11H7M8,11H10V13H8M8,8H10V10H8M11,11H13V13H11M11,8H13V10H11M20,5H4C2.89,5 2,5.89 2,7V17A2,2 0 0,0 4,19H20A2,2 0 0,0 22,17V7C22,5.89 21.1,5 20,5Z" /></svg>
+                    <div id="magnify-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="30px" width="28px" id="magnify" fill="white"><title>magnify</title><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+                    </div>
+                </div>
+                <div id="microphone-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="25px" width="30px" id="microphone" fill="white"><title>microphone</title><path d="M12,2A3,3 0 0,1 15,5V11A3,3 0 0,1 12,14A3,3 0 0,1 9,11V5A3,3 0 0,1 12,2M19,11C19,14.53 16.39,17.44 13,17.93V21H11V17.93C7.61,17.44 5,14.53 5,11H7A5,5 0 0,0 12,16A5,5 0 0,0 17,11H19Z" /></svg>
+                </div>
+            </div>
+            <div id="account-container">
+                <div class="svg-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="30px" width="30px" fill="white"><title>video-plus-outline</title><path d="M15 8V16H5V8H15M16 6H4C3.45 6 3 6.45 3 7V17C3 17.55 3.45 18 4 18H16C16.55 18 17 17.55 17 17V13.5L21 17.5V6.5L17 10.5V7C17 6.45 16.55 6 16 6M13 13H11V15H9V13H7V11H9V9H11V11H13V13Z" /></svg>
+                </div>
+                <div class="svg-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="25px" width="30px" fill="white"><title>bell-outline</title><path d="M10 21H14C14 22.1 13.1 23 12 23S10 22.1 10 21M21 19V20H3V19L5 17V11C5 7.9 7 5.2 10 4.3V4C10 2.9 10.9 2 12 2S14 2.9 14 4V4.3C17 5.2 19 7.9 19 11V17L21 19M17 11C17 8.2 14.8 6 12 6S7 8.2 7 11V18H17V11Z" /></svg>
+                </div>
+                <div id="accountcirc-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="40px" width="35px" fill="white"><title>account-circle</title><path d="M12,19.2C9.5,19.2 7.29,17.92 6,16C6.03,14 10,12.9 12,12.9C14,12.9 17.97,14 18,16C16.71,17.92 14.5,19.2 12,19.2M12,5A3,3 0 0,1 15,8A3,3 0 0,1 12,11A3,3 0 0,1 9,8A3,3 0 0,1 12,5M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z" /></svg>
+                </div>
+            </div>
+        </div>
+        <nav id="head-button">
+            <button>Összes</button>
+            <button>Játék</button>
+            <button>Zene</button>
+            <button>Élő</button>
+            <button>Szépítkezési tanácsok</button>
+            <button>Egyvelegek</button>
+            <button>Szimulátorjátékok</button>
+            <button>Irodalom</button>
+            <button>Fitnesz</button>
+            <button>Vadvilág</button>
+            <button>Akció-kalandjátékok</button>
+            <button>Képzőművészet</button>
+            <button>Főzés</button>
+            <button>Rajzfilmek</button>
+        </nav>
+    </header>
+    <aside>
+        <div id="aside-container">
+            <div class="svg-container" id="menu-container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="30px" width="25px" fill="white" id="menu"><title>menu</title><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+            </div>
+            <div class="icons-names svg-container2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="30px" width="25px" fill="white"><title>home</title><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg>
+                <span>Kezdőlap</span>
+            </div>
+            <div class="icons-names svg-container2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="25px" width="25px" fill="white"><title>play-box-multiple-outline</title><path d="M4 6H2V20C2 21.1 2.9 22 4 22H18V20H4V6M20 4V16H8V4H20M20 2H8C6.9 2 6 2.9 6 4V16C6 17.1 6.9 18 8 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M12 14.5V5.5L18 10L12 14.5Z" /></svg>
+                <span>Shorts</span>
+            </div>
+            <div class="icons-names svg-container2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="25px" width="25px" fill="white"><title>youtube-subscription</title><path d="M20,8H4V6H20V8M18,2H6V4H18V2M22,12V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V12A2,2 0 0,1 4,10H20A2,2 0 0,1 22,12M16,16L10,12.73V19.26L16,16Z" /></svg>
+                <span>Feliratkozás...</span>
+            </div>
+            <div class="icons-names svg-container2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="25px" width="25px" fill="white"><title>animation-play</title><path d="M4,2H14V4H4V14H2V4C2,2.89 2.89,2 4,2M8,6H18V8H8V18H6V8C6,6.89 6.89,6 8,6M12,10H20C21.11,10 22,10.89 22,12V20C22,21.11 21.11,22 20,22H12C10.89,22 10,21.11 10,20V12C10,10.89 10.89,10 12,10M14,12V20L20,16L14,12Z" /></svg>
+                <span>Könyvtár</span>
+            </div>
+        </div>
+    </aside>
+    <main>
+        <div class="video">
+            <img src="./Képek/thumbnail1.jpg" alt="thumbnail" id="thumbnail">
+            <div class="video-desc">
+                <div>
+                    <img src="./Képek/Kép1.png" alt="logo" height="45px" width="45px" class="logo">
+                </div>
+                <div class="text">
+                    <span class="title">Javascript gyorstalpaló: Mi az a this?</span>
+                    <span>Programozás Karrier</span>
+                    <span>384 megtekintés · 4 nappal ezelőtt</span>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="./Képek/thumbnail1.jpg" alt="thumbnail" id="thumbnail">
+            <div class="video-desc">
+                <div>
+                    <img src="./Képek/Kép1.png" alt="logo" height="45px" width="45px" class="logo">
+                </div>
+                <div class="text">
+                    <span class="title">Javascript gyorstalpaló: Mi az a this?</span>
+                    <span>Programozás Karrier</span>
+                    <span>384 megtekintés · 4 nappal ezelőtt</span>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="./Képek/thumbnail1.jpg" alt="thumbnail" id="thumbnail">
+            <div class="video-desc">
+                <div>
+                    <img src="./Képek/Kép1.png" alt="logo" height="45px" width="45px" class="logo">
+                </div>
+                <div class="text">
+                    <span class="title">Javascript gyorstalpaló: Mi az a this?</span>
+                    <span>Programozás Karrier</span>
+                    <span>384 megtekintés · 4 nappal ezelőtt</span>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="./Képek/thumbnail1.jpg" alt="thumbnail" id="thumbnail">
+            <div class="video-desc">
+                <div>
+                    <img src="./Képek/Kép1.png" alt="logo" height="45px" width="45px" class="logo">
+                </div>
+                <div class="text">
+                    <span class="title">Javascript gyorstalpaló: Mi az a this?</span>
+                    <span>Programozás Karrier</span>
+                    <span>384 megtekintés · 4 nappal ezelőtt</span>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="./Képek/thumbnail1.jpg" alt="thumbnail" id="thumbnail">
+            <div class="video-desc">
+                <div>
+                    <img src="./Képek/Kép1.png" alt="logo" height="45px" width="45px" class="logo">
+                </div>
+                <div class="text">
+                    <span class="title">Javascript gyorstalpaló: Mi az a this?</span>
+                    <span>Programozás Karrier</span>
+                    <span>384 megtekintés · 4 nappal ezelőtt</span>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="./Képek/thumbnail1.jpg" alt="thumbnail" id="thumbnail">
+            <div class="video-desc">
+                <div>
+                    <img src="./Képek/Kép1.png" alt="logo" height="45px" width="45px" class="logo">
+                </div>
+                <div class="text">
+                    <span class="title">Javascript gyorstalpaló: Mi az a this?</span>
+                    <span>Programozás Karrier</span>
+                    <span>384 megtekintés · 4 nappal ezelőtt</span>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="./Képek/thumbnail1.jpg" alt="thumbnail" id="thumbnail">
+            <div class="video-desc">
+                <div>
+                    <img src="./Képek/Kép1.png" alt="logo" height="45px" width="45px" class="logo">
+                </div>
+                <div class="text">
+                    <span class="title">Javascript gyorstalpaló: Mi az a this?</span>
+                    <span>Programozás Karrier</span>
+                    <span>384 megtekintés · 4 nappal ezelőtt</span>
+                </div>
+            </div>
+        </div>
+        <div class="video">
+            <img src="./Képek/thumbnail1.jpg" alt="thumbnail" id="thumbnail">
+            <div class="video-desc">
+                <div>
+                    <img src="./Képek/Kép1.png" alt="logo" height="45px" width="45px" class="logo">
+                </div>
+                <div class="text">
+                    <span class="title">Javascript gyorstalpaló: Mi az a this?</span>
+                    <span>Programozás Karrier</span>
+                    <span>384 megtekintés · 4 nappal ezelőtt</span>
+                </div>
+            </div>
+        </div>
+    </main>
+<script src="./script.js"></script>
+</body>
+</html>

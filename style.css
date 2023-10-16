@@ -1,0 +1,242 @@
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 19fr;
+    grid-template-rows: 1fr 4fr;
+    margin: 0;
+}
+
+header{
+    background-color: #0f0f0f;
+}
+
+
+aside{
+    background-color: #0f0f0f;
+    display: grid;
+    grid-row: 1 / -1;
+}
+
+main{
+    background-color: #0f0f0f;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#youtube-icon:hover{
+    cursor: pointer;
+}
+
+svg:hover{
+    cursor: pointer;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+    margin-bottom: 18px;
+}
+
+
+#search-microphone{
+    display: flex;
+}
+
+#search-container{
+    position: relative;
+}
+
+#search{
+    padding: 10px;
+    padding-left: 15px;
+    width: 565px;
+    border-radius: 40px;
+    font-size: 15px;
+    color: #ffffff;
+    border: 1px solid #454545;
+    opacity: 0.7;
+    background-color: #121212;
+}
+
+#keyboard{
+    position: absolute;
+    right: 68px;
+    top: 10px;
+}
+
+#keyboard:hover{
+    fill: rgb(215, 211, 211);
+}
+
+#magnify{
+    position: absolute;
+    right: 18px;
+    top: 4px;
+}
+
+#magnify-container{
+    position: absolute;
+    top: 0.20%;
+    right: 0.10%;
+    width: 65px;
+    height: 38px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: #222222;
+    border: 1px solid #373636;
+    
+}
+
+#microphone-container{
+    width: 40px;
+    height: 40px;
+    background-color: #222222;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#microphone-container:hover{
+    background-color: #454545;
+}
+
+#account-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    gap: 15px;
+}
+
+.svg-container{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-container:hover{
+    background-color: #222222;
+    border-radius: 20px;
+}
+
+#accountcirc-container{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#head-button{
+    margin-left: 18px;
+}
+
+button{
+    margin-right: 8px;
+    padding: 9px 13px;
+    border-radius: 10px;
+    background-color: #222222;
+    color: white;
+    border: none;
+    font-size: 13px;
+    transition-duration: 400ms;
+    font-family: "Roboto","Arial",sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #454545;
+}
+
+button:focus{
+    background-color: white;
+    color: black;
+}
+
+
+.icons-names{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-names span{
+    font-size: 10px;
+    color: white;
+    line-height: 20px;
+    font-family: "Roboto","Arial",sans-serif;
+}
+
+
+
+.svg-container2{
+        width: 65px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.svg-container2:hover{
+    background-color: #222222;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#aside-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu-container{
+    margin-top: 8px;
+    margin-bottom: 11px;
+}
+
+
+#thumbnail{
+    height: 195px;
+    width: 340px;
+    border-radius: 15px;
+    transition-duration: 400ms;
+}
+
+#thumbnail:hover{
+    border-radius: 0px;
+}
+
+.video-desc{
+    display: flex;
+}
+
+.logo{
+    margin-right: 9px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+span{
+    color: #b6b9bc;
+    margin-bottom: 2px;
+    font-family:"Roboto","Arial",sans-serif;
+}
